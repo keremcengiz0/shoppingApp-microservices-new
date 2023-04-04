@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2804910e-5c6d-4974-82b4-a16de31ecb67" name="Changes" comment="added security configs.">
+    <list default="true" id="2804910e-5c6d-4974-82b4-a16de31ecb67" name="Changes" comment="added resilience4j configs, method and annotation for controller.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/keremcengiz0/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/keremcengiz0/inventoryservice/service/InventoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/keremcengiz0/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/keremcengiz0/orderservice/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/keremcengiz0/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/keremcengiz0/orderservice/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,8 +142,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.InventoryServiceApplication" />
-        <item itemvalue="Application.ProductServiceApplication" />
         <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.ProductServiceApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
       </list>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680607342872</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added resilience4j configs, method and annotation for controller.">
+      <created>1680611647011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680611647011</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +244,7 @@
     <MESSAGE value="added spring cloud gateway configs for discovery-server." />
     <MESSAGE value="added keycloak configs." />
     <MESSAGE value="added security configs." />
-    <option name="LAST_COMMIT_MESSAGE" value="added security configs." />
+    <MESSAGE value="added resilience4j configs, method and annotation for controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="added resilience4j configs, method and annotation for controller." />
   </component>
 </project>
