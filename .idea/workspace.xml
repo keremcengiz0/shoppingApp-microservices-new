@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2804910e-5c6d-4974-82b4-a16de31ecb67" name="Changes" comment="added zipkin configs and code improvements.">
-      <change afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2804910e-5c6d-4974-82b4-a16de31ecb67" name="Changes" comment="added notification-service, kafka configs, docker-compose.yml and code improvements.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/keremcengiz0/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/keremcengiz0/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,17 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hulya/intelij-SpringBoot/shoppingApp-microservices-new/inventory-service&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/Hulya/intelij-SpringBoot/shoppingApp-microservices-new/inventory-service/src/main/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hulya\intelij-SpringBoot\shoppingApp-microservices-new\inventory-service\src\main\resources" />
       <recent name="C:\Users\Hulya\intelij-SpringBoot\shoppingApp-microservices-new\inventory-service" />
       <recent name="C:\Users\Hulya\intelij-SpringBoot\shoppingApp-microservices-new\order-service" />
       <recent name="C:\Users\Hulya\intelij-SpringBoot\shoppingApp-microservices-new\product-service" />
@@ -66,6 +63,7 @@
     <option name="myCommands">
       <command value="mvn clean verify -Dmaven.test.skip=true" />
       <command value="mvn clean verify" />
+      <command value="mvn clean install package -Dmaven.test.skip=true" />
     </option>
   </component>
   <component name="RunManager" selected="Application.NotificationServiceApplication">
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680617596970</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added notification-service, kafka configs, docker-compose.yml and code improvements.">
+      <created>1680699162675</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680699162675</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +268,7 @@
     <MESSAGE value="added resilience4j configs, method and annotation for controller." />
     <MESSAGE value="added Resilience4j configs for timeout and retry, code improvements." />
     <MESSAGE value="added zipkin configs and code improvements." />
-    <option name="LAST_COMMIT_MESSAGE" value="added zipkin configs and code improvements." />
+    <MESSAGE value="added notification-service, kafka configs, docker-compose.yml and code improvements." />
+    <option name="LAST_COMMIT_MESSAGE" value="added notification-service, kafka configs, docker-compose.yml and code improvements." />
   </component>
 </project>
