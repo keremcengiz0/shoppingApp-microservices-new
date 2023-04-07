@@ -6,31 +6,26 @@ services:
     container_name: mysql-order
     image: mysql
     environment:
-      MYSQL_DB: order-service
-      MYSQL_USERNAME: root
-      MYSQL_PASSWORD: 12345678K.
-      MYSQLDATA: /data/mysql
+      MYSQL_DATABASE: order-service
+      MYSQL_ROOT_PASSWORD: 12345678K.
     volumes:
-      - ./mysql-order:/data/mysql
+      - ./mysql-order:/var/lib/mysql
     expose:
       - "5431"
     ports:
-      - "5431:5431"
-    command: -p 5431
+      - "5431:3306"
     restart: always
 
   mysql-inventory:
     container_name: mysql-inventory
     image: mysql
     environment:
-      MYSQL_DB: inventory-service
-      MYSQL_USERNAME: root
-      MYSQL_PASSWORD: 12345678K.
-      MYSQLDATA: /data/mysql
+      MYSQL_DATABASE: inventory-service
+      MYSQL_ROOT_PASSWORD: 12345678K.
     volumes:
-      - ./mysql-inventory:/data/mysql
+      - ./mysql-inventory:/var/lib/mysql
     ports:
-      - "5432:5432"
+      - "5432:3306"
     restart: always
 
   ## Mongo Docker Compose Config
