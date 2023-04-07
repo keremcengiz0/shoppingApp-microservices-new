@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2804910e-5c6d-4974-82b4-a16de31ecb67" name="Changes" comment="added notification-service, kafka configs, docker-compose.yml and code improvements.">
+    <list default="true" id="2804910e-5c6d-4974-82b4-a16de31ecb67" name="Changes" comment="updated docker-compose.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680699162675</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated docker-compose.yml">
+      <created>1680865506920</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680865506920</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,7 @@
     <MESSAGE value="added Resilience4j configs for timeout and retry, code improvements." />
     <MESSAGE value="added zipkin configs and code improvements." />
     <MESSAGE value="added notification-service, kafka configs, docker-compose.yml and code improvements." />
-    <option name="LAST_COMMIT_MESSAGE" value="added notification-service, kafka configs, docker-compose.yml and code improvements." />
+    <MESSAGE value="updated docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated docker-compose.yml" />
   </component>
 </project>
